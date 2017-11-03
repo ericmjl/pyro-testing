@@ -1,0 +1,12 @@
+name: pyro
+channels:
+- defaults
+- conda-forge
+- ericmjl
+- soumith
+dependencies:
+- python=3.6
+- pytorch
+- torchvision
+- pip:
+    - "pyro-ppl"
